@@ -27,8 +27,10 @@ function hxlProxyToJSON(input){
 }
 
 
-var dataURL = 'https://proxy.hxlstandard.org/data.objects.json?url=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1PDflSEez41f-509wTh_Ss5DTk4XO36z1CLltU_uv-nI%2Fedit%23gid%3D0&force=on';
+//var dataURL = 'https://proxy.hxlstandard.org/data.objects.json?url=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1PDflSEez41f-509wTh_Ss5DTk4XO36z1CLltU_uv-nI%2Fedit%23gid%3D0&force=on';
+var dataURL = 'https://proxy.hxlstandard.org/data.objects.json?dest=data_edit&strip-headers=on&force=on&url=https://docs.google.com/spreadsheets/d/1PDflSEez41f-509wTh_Ss5DTk4XO36z1CLltU_uv-nI/edit?gid%3D1995979531%23gid%3D1995979531';
 var cvaData = '';
+
 var shortenNumFormat = d3.format('.2s');
 var numFormat = d3.format(',.0f');
 
